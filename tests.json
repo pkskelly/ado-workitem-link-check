@@ -1,0 +1,80 @@
+[
+    {
+        "testCase": "The link AB#afdgg is bad",
+        "expected": false
+    },
+    {
+        "testCase": "The link AB#2 is bad",
+        "expected": false
+    },
+    {
+        "testCase": "The link AB#23 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#234 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#2345 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#23456 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#234567 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#2345678 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#23456789 is good",
+        "expected": true
+    },
+    {
+        "testCase": "The link AB#234567890  is bad",
+        "expected": false
+    },
+    {
+        "testCase": "The link AB#2345678901  is bad",
+        "expected": false
+    },
+    {
+        "testCase": "The link ABC#23 is bad",
+        "expected": false
+    },
+    {
+        "testCase": "The link 1AB#24  is bad",
+        "expected": false
+    },
+    {
+        "testCase": "AB#23456 is good",
+        "expected": false
+    },
+    {
+        "testCase": "The linked story is AB#23456 is good",
+        "expected": false
+    },
+    {
+        "testCase": "The linked story is AB#23456",
+        "expected": false
+    },
+    {
+        "testCase": "The linked story is AB#23456: fixes is bad",
+        "expected": false
+    },
+    {
+        "testCase": "AB#23456: fixes is good",
+        "expected": true
+    },
+    {
+        "testCase": "AB#21122 & AB#21123 - Fix Terminal Dashboard email this page defect",
+        "expected": true
+    }
+
+    
+]

@@ -1,0 +1,15 @@
+{
+    "LABEL": {
+      "name": "Missing DevOps Link",
+      "color": "FF0000"
+    },
+    "CHECKS": {
+      "regexp": "\\b(AB#[0-9]{2,8}):*\\b",
+      "regexpFlags": "i"
+    },
+    "MESSAGES": {
+      "success": "PR specifies link to the DevOps Work Item.",
+      "failure": "Failed PR CI Test : PR title must include ADO WorkItem Link in AB#nnnnn format.",
+      "notice": "Missing Work Item Link"
+    }
+  }
