@@ -1,4 +1,9 @@
-# Pull Request Checklist
+
+# Pull Request Description
+
+> Provide a detailed description of the PR to provide context for the reviewer. (remove this line when done.)
+
+##  Pull Request Checklist
 
 - [ ] Does the PR Title have an Azure DevOps linked WorkItem?
 - [ ] Is your branch up to date before submission (to reduce merge issues)
