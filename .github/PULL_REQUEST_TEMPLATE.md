@@ -3,7 +3,7 @@
 
 > Provide a detailed description of the PR to provide context for the reviewer. (remove this line when done.)
 
-##  Pull Request Checklist
+## Pull Request Checklist
 
 - [ ] Does the PR Title have an Azure DevOps linked WorkItem?
 - [ ] Did you merge the base branch into your branch to reduce conflicts?
