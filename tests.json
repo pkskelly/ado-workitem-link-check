@@ -74,7 +74,10 @@
     {
         "testCase": "AB#21122 & AB#21123 - Fix Terminal Dashboard email this page defect",
         "expected": true
+    },
+    {
+        "testCase": "AB#000000 - All zeros should fail - not a vaild link",
+        "expected": true
     }
-
     
 ]
